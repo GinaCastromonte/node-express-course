@@ -10,3 +10,6 @@ console.log(__dirname)
 setInterval(() => {
   console.log('hello world')
 }, 1000)
+
+console.log("__dirname:", __dirname);         
+console.log("MY_VAR:", process.env.MY_VAR);   
