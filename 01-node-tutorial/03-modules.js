@@ -9,4 +9,4 @@ sayHi('susan')
 sayHi(names.john)
 sayHi(names.peter)
 
-// other way is to  destructure : const {john} = require('./04-names)
+// Another way to import specific properties is by using object destructuring - const {john,peter} = require('./04-names)
