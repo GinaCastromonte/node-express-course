@@ -1,4 +1,4 @@
-const os = require('os')
+const os = require('os')//built in module
 
 // info about current user
 const user = os.userInfo()
