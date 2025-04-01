@@ -10,3 +10,7 @@ writeFileSync(
 )
 console.log('done with this task')
 console.log('starting the next one')
+
+
+//fs.writeFileSync(file, data, [options])
+//flag 'a'= append - if the file already exists, it will append the new data to the end of the file instead of overwriting it.
